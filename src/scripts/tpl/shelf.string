@@ -1,0 +1,14 @@
+<header>
+  <ul>
+    <li class="yo-ico"></li>
+    <li>书架</li>
+    <li class="yo-ico"></li>
+  </ul>
+</header>
+<div class="shelf-box">
+  <div id="shelf-section">
+    <img src="/wangcctest/images/shelf/bookrack.png" />
+    <i>亲，书架还空空荡荡哦~</i>
+    <a>去书城逛逛</a>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.shelf-box{
+  @include flexbox();
+
+  #shelf-section{
+    // @include flex();
+    width: 100%;
+    background: pink;
+    img{
+      display: block;
+      max-width: 205px;
+      width: 50%;
+      margin: 0 auto 15px;
+    }
+    i{
+      display: block;
+      text-align: center;
+      font-size: 15px;
+      color: #949494;
+    }
+    a{
+      display: block;
+      width: 50%;height: 0.4rem;
+      margin: 30px auto;
+      background-color: $base-color;
+      color: #fff;
+      line-height: 0.4rem;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: .2em;
+      border-radius: 5px;
+    }
+  }
+}

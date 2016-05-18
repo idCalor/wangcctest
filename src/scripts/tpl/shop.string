@@ -1,0 +1,145 @@
+<header>
+  <ul>
+    <li class="yo-ico"></li>
+    <li>书城</li>
+    <li class="yo-ico">&#xe605;</li>
+  </ul>
+</header>
+<nav>
+  <ul class="shop-nav">
+    <li class="active" action-type="tap.shop.slide">男生</li>
+    <li action-type="tap.shop.slide">女生</li>
+    <li action-type="tap.shop.slide">出版</li>
+    <li action-type="tap.shop.slide">分类</li>
+    <li action-type="tap.shop.slide">免费</li>
+  </ul>
+</nav>
+<div class="swiper-container" id="shop-nav-swiper">
+  <div class="swiper-wrapper">
+    <!-- 男生 -->
+        <div class="swiper-slide">
+          <section spa-widget="scroll" data-scroll-id="shopScroll">
+            <div class="scroll-box">
+              <!-- 下拉刷新 -->
+                <div class="head">
+                  <img src="/wangcctest/images/arrow.png" />
+                  <span>下拉刷新...</span>
+                </div>
+              <!-- 男生banner -->
+                <div class="banner">
+                  <div class="swiper-container" id="shop-banner-swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img ms-src="boyall.banner1"/></div>
+                      <div class="swiper-slide"><img ms-src="boyall.banner2"/></div>
+                      <div class="swiper-slide"><img ms-src="boyall.banner3"/></div>
+                      <div class="swiper-slide"><img ms-src="boyall.banner4"/></div>
+                      <div class="swiper-slide"><img ms-src="boyall.banner5"/></div>
+                      <div class="swiper-slide"><img ms-src="boyall.banner6"/></div>
+                    </div>
+                    <div class="swiper-pagination" id="swiper-tap"></div>
+                  </div>
+                </div>
+              <!-- 男生小说内容 -->
+                <div class="week">
+                  <p>
+                    <span class="yo-ico">&#xe6af;</span>
+                    <span ms-text="boyall.title"></span>
+                    <span class="yo-ico">&#xe635;</span>
+                  </p>
+                  <ul>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg1" /></dt>
+                          <dd ms-text='boyall.weekName1'></dd>
+                          <dd ms-text='boyall.weekAuthor1'></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg2" /></dt>
+                          <dd ms-text='boyall.weekName2'></dd>
+                          <dd ms-text='boyall.weekAuthor2'></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg3" /></dt>
+                          <dd ms-text='boyall.weekName3'></dd>
+                          <dd ms-text='boyall.weekAuthor3'></dd>
+                        </dl>
+                    </li>
+                  </ul>
+                  <p>
+                    <span ms-text="boyall.wordTitle1"></span>
+                    <span ms-text="boyall.wordAuthor1"></span>
+                    <span ms-text="boyall.wordContent1"></span>
+                  </p>
+                  <p>
+                    <span ms-text="boyall.wordTitle2"></span>
+                    <span ms-text="boyall.wordAuthor2"></span>
+                    <span ms-text="boyall.wordContent2"></span>
+                  </p>
+                </div>
+                <div class="new">
+                  <p>
+                    <span class="yo-ico">&#xe6af;</span>
+                    <span ms-text="boyall.title"></span>
+                    <span class="yo-ico">&#xe635;</span>
+                  </p>
+                  <ul>
+                    <p>
+                      <span ms-text="boyall.free"></span>
+                      <span ms-html="boyall.freeTime"></span>
+                    </p>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg1" /></dt>
+                          <dd ms-text='boyall.weekName1'></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg2" /></dt>
+                          <dd ms-text='boyall.weekName2'></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                          <dt><img ms-src="boyall.weekImg3" /></dt>
+                          <dd ms-text='boyall.weekName3'></dd>
+                        </dl>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+
+
+
+                <div class="foot">
+                  <img src="/wangcctest/images/arrow.png"/>
+                  <span>上拉加载更多...</span>
+                </div>
+            </div>
+          </section>
+        </div>
+
+    <!-- 女生 -->
+        <div class="swiper-slide">
+          女生
+        </div>
+    <!-- 出版 -->
+        <div class="swiper-slide">
+          出版
+        </div>
+    <!-- 分类 -->
+        <div class="swiper-slide">
+          分类
+        </div>
+    <!-- 免费 -->
+        <div class="swiper-slide">
+          免费
+        </div>
+  </div>
+</div>

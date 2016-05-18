@@ -1,0 +1,19 @@
+{
+  "ret": true,
+  "errCode": 21,
+  "errMsg": "",
+  "data":[
+      {
+
+        "title":"新书/完本免费",
+        "weekImg1":"/wangcctest/images/home/week4.jpg",
+        "weekImg2":"/wangcctest/images/home/week5.jpg",
+        "weekImg3":"/wangcctest/images/home/week6.jpg",
+        "free":"免费",
+        "freeTime":"限免时间：本周一-周二",
+        "weekName1":"静州往事",
+        "weekName2":"超级狂医",
+        "weekName3":"沈国入侵"
+      }
+    ]
+}
