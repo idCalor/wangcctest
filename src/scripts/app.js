@@ -12,5 +12,5 @@ require('./views/index.js');
 //定义默认视图
 SPA.config({
   // 默认进入guide
-  indexView:'guide'
+  indexView:'shop'
 });
